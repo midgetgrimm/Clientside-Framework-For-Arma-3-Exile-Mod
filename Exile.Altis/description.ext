@@ -12,6 +12,11 @@ OnLoadIntroTime = false;
 OnLoadMissionTime = false;
 onLoadName = "Exile Mod";
 
+class CfgFunctions
+{
+	#include "custom_code.h"
+};
+
 class Header
 {
 	gameType = Sandbox;
